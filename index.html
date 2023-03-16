@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Esercitarsi con le operazioni matematiche</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="generateQuestion()">
+	<div class="container">
+		<h1>Esercitarsi con le operazioni matematiche</h1>
+		<div class="question">
+			<span id="num1"></span> <span id="operator"></span> <span id="num2"></span> = 
+			<input type="number" id="answer">
+			<button onclick="checkAnswer()">Controlla</button>
+			<p id="result"></p>
+		</div>
+		<button onclick="generateQuestion()">Nuova domanda</button>
+		<div class="cute-cats">
+			<img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Fiordo">
+			<img src="https://www.w3schools.com/w3images/lights.jpg" alt="Luci">
+			<img src="https://www.w3schools.com/w3images/nature.jpg" alt="Natura">
+			<img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Montagne">
+			<img src="https://www.w3schools.com/w3images/rocks.jpg" alt="Rocce">
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
