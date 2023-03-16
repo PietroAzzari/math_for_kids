@@ -3,10 +3,10 @@ var num1, num2, operator, answer;
 const answerInput = document.getElementById("answer");
 const checkButton = document.getElementById("checkButton");
 
-window.onload = function() {
+document.body.onload = function() {
 	generateQuestion();
 	setBackground('https://www.w3schools.com/w3images/fjords.jpg');
-}
+};
 
 answerInput.addEventListener("keydown", function(event) {
   if (event.keyCode === 13) {
