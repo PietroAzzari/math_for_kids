@@ -48,3 +48,8 @@ function checkAnswer() {
 		document.getElementById('result').innerHTML = 'Sbagliato. La risposta corretta è ' + correctAnswer;
 	}
 }
+
+function setBackground(imageUrl) {
+  document.body.style.backgroundImage = `url(${imageUrl})`;
+}
+
