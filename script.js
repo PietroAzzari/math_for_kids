@@ -1,5 +1,22 @@
 var num1, num2, operator, answer;
 
+const answerInput = document.getElementById("answer");
+const checkButton = document.getElementById("checkButton");
+
+answerInput.addEventListener("keydown", function(event) {
+  if (event.keyCode === 13) {
+    checkAnswer();
+  }
+});
+
+checkButton.addEventListener("click", function() {
+  checkAnswer();
+});
+
+function checkAnswer() {
+  // codice per controllare la risposta qui
+}
+
 function generateQuestion() {
 	num1 = Math.floor(Math.random() * 10) + 1;
 	num2 = Math.floor(Math.random() * 10) + 1;
