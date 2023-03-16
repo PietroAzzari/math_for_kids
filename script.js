@@ -4,7 +4,7 @@ const answerInput = document.getElementById("answer");
 const checkButton = document.getElementById("checkButton");
 
 window.onload = function() {
-	generateQuestion()";
+	generateQuestion();
 	setBackground('https://www.w3schools.com/w3images/fjords.jpg');
 }
 
