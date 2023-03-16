@@ -53,3 +53,9 @@ button {
 	border-radius: 50%;
 	box-shadow: 2px 2px #A88C47;
 }
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
